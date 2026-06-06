@@ -7,10 +7,10 @@ AML-transcriptomics-integrative-analysis/
 ├── scripts/
 │   ├── 01_qc_preprocessing.R
 │   ├── 02_deseq2_all_datasets.R
-│   ├── 03_cross_dataset_DEG_overlap.R     ⭐ NEW
+│   ├── 03_cross_dataset_DEG_overlap.R      NEW
 │   ├── 04_gsva_pathway_analysis.R
 │   ├── 05_gsea_enrichment.R
-│   ├── 06_hub_gene_network.R               ⭐ STRING/Cytoscape
+│   ├── 06_hub_gene_network.R                STRING/Cytoscape
 │   ├── 07_final_figures.R
 │
 ├── data/
