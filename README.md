@@ -1,6 +1,12 @@
-# AML-transcriptomics-analysis
-# Create a minimal, reusable analysis workflow template (R)
-# This writes a script you can upload to Zenodo as the reproducible pipeline entry point.
+############################################################
+# AML Transcriptomics Analysis Pipeline
+# Reproducible R workflow for differential expression
+# and visualization of public RNA-seq datasets
+#
+# Author: Daniel Muteb Muyey
+# Repository: AML-transcriptomics-analysis
+# Purpose: Minimal, reusable pipeline for GitHub + Zenodo
+############################################################
 
 AML-transcriptomics-integrative-analysis/
 │
@@ -143,6 +149,9 @@ mapped <- string_db$map(core, "gene", removeUnmappedRows = TRUE)
 ppi <- string_db$get_interactions(mapped$STRING_id)
 
 write.csv(ppi, "results/networks/PPI_network.csv")
+
+[![DOI](https://zenodo.org/badge/1261440380.svg)](https://doi.org/10.5281/zenodo.20573108)
+
 
 
 
